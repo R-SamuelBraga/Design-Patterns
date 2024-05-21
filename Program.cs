@@ -1,8 +1,8 @@
 ﻿using Design_Patterns;
 
 //Exemplo SIngleton Print Spooler
-string[] firstDocumentStrings = { "PC1_doc1", "PC1_doc2", "PC1_doc3" };
-string[] secondDocumentStrings = { "PC2_doc4", "PC2_doc5", "PC2_doc6" };
+string[] primeiroDocumento = { "PC1_doc1", "PC1_doc2", "PC1_doc3" };
+string[] segundoDocumento = { "PC2_doc4", "PC2_doc5", "PC2_doc6" };
 var printSpooler1 = PrintSpooler.GetPrintSpooler();
 var printSpooler2 = PrintSpooler.GetPrintSpooler();
 
