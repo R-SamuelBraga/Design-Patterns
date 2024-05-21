@@ -1,4 +1,4 @@
-using System;
+iusing System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -60,12 +60,12 @@ namespace Design_Patterns
 
         public void SomeBusinessLogic()
         {
-            Console.WriteLine("\nSubject: I'm doing something important.");
+            Console.WriteLine("\nSubject: estou fazendo algo importante.");
             this.State = new Random().Next(0, 10);
 
             Thread.Sleep(15);
 
-            Console.WriteLine("Subject: My state has just changed to: " + this.State);
+            Console.WriteLine("Subject: Meu estado mudou para : " + this.State);
             this.Notify();
         }
     }
@@ -76,7 +76,7 @@ namespace Design_Patterns
         {            
             if ((subject as Subject).State < 3)
             {
-                Console.WriteLine("ConcreteObserverA: Reacted to the event.");
+                Console.WriteLine("ConcreteObserverA: Reagiu ao evento.");
             }
         }
     }
@@ -87,7 +87,7 @@ namespace Design_Patterns
         {
             if ((subject as Subject).State == 0 || (subject as Subject).State >= 2)
             {
-                Console.WriteLine("ConcreteObserverB: Reacted to the event.");
+                Console.WriteLine("ConcreteObserverB: Reagiu ao evento.");
             }
         }
     }
