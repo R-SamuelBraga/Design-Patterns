@@ -18,7 +18,6 @@ namespace Design_Patterns
         }
         public static PrintSpooler GetPrintSpooler()
         {
-        //Make it thread safe
             lock (Padlock)
             {
                 return _lazyInstance ??= new PrintSpooler();
@@ -28,7 +27,6 @@ namespace Design_Patterns
         public void AddPrintJob(IEnumerable<string> documents)
         {
             if (documents == null) throw new ArgumentNullException(nameof(documents));
-            //Make it thread safe
             lock (_queue)
             {
                 foreach (var document in documents) _queue.Enqueue(document);
@@ -37,7 +35,6 @@ namespace Design_Patterns
 
         public void ProcessPrintJob()
         {
-            //Make it thread safe
             lock (_queue)
             {
                 foreach (var document in _queue) Console.WriteLine(document);
