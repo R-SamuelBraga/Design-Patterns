@@ -39,7 +39,7 @@ namespace Design_Patterns
             lock (_queue)
             {
                 foreach (var document in _queue) Console.WriteLine(document);
-                Console.WriteLine("Instance Call Finished");
+                Console.WriteLine("Chamada da instancia feita");
             }
         }
     }
