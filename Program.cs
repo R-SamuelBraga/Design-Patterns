@@ -6,8 +6,8 @@ string[] segundoDocumento = { "PC2_doc4", "PC2_doc5", "PC2_doc6" };
 var printSpooler1 = PrintSpooler.GetPrintSpooler();
 var printSpooler2 = PrintSpooler.GetPrintSpooler();
 
-var task1 = Task.Run(() => printSpooler1.AddPrintJob(firstDocumentStrings));
-var task2 = Task.Run(() => printSpooler2.AddPrintJob(secondDocumentStrings));
+var task1 = Task.Run(() => printSpooler1.AddPrintJob(primeiroDocumento));
+var task2 = Task.Run(() => printSpooler2.AddPrintJob(segundoDocumento));
 await Task.WhenAll(task1, task2);
 
 printSpooler1.ProcessPrintJob();
