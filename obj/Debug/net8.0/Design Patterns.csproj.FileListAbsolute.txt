@@ -1,0 +1,14 @@
+C:\Users\Samuel\Dropbox\My PC (LAPTOP-19T3V1ND)\Desktop\Design Patterns\bin\Debug\net8.0\Design Patterns.exe
+C:\Users\Samuel\Dropbox\My PC (LAPTOP-19T3V1ND)\Desktop\Design Patterns\bin\Debug\net8.0\Design Patterns.deps.json
+C:\Users\Samuel\Dropbox\My PC (LAPTOP-19T3V1ND)\Desktop\Design Patterns\bin\Debug\net8.0\Design Patterns.runtimeconfig.json
+C:\Users\Samuel\Dropbox\My PC (LAPTOP-19T3V1ND)\Desktop\Design Patterns\bin\Debug\net8.0\Design Patterns.dll
+C:\Users\Samuel\Dropbox\My PC (LAPTOP-19T3V1ND)\Desktop\Design Patterns\bin\Debug\net8.0\Design Patterns.pdb
+C:\Users\Samuel\Dropbox\My PC (LAPTOP-19T3V1ND)\Desktop\Design Patterns\obj\Debug\net8.0\Design Patterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samuel\Dropbox\My PC (LAPTOP-19T3V1ND)\Desktop\Design Patterns\obj\Debug\net8.0\Design Patterns.AssemblyInfoInputs.cache
+C:\Users\Samuel\Dropbox\My PC (LAPTOP-19T3V1ND)\Desktop\Design Patterns\obj\Debug\net8.0\Design Patterns.AssemblyInfo.cs
+C:\Users\Samuel\Dropbox\My PC (LAPTOP-19T3V1ND)\Desktop\Design Patterns\obj\Debug\net8.0\Design Patterns.csproj.CoreCompileInputs.cache
+C:\Users\Samuel\Dropbox\My PC (LAPTOP-19T3V1ND)\Desktop\Design Patterns\obj\Debug\net8.0\Design Patterns.dll
+C:\Users\Samuel\Dropbox\My PC (LAPTOP-19T3V1ND)\Desktop\Design Patterns\obj\Debug\net8.0\refint\Design Patterns.dll
+C:\Users\Samuel\Dropbox\My PC (LAPTOP-19T3V1ND)\Desktop\Design Patterns\obj\Debug\net8.0\Design Patterns.pdb
+C:\Users\Samuel\Dropbox\My PC (LAPTOP-19T3V1ND)\Desktop\Design Patterns\obj\Debug\net8.0\Design Patterns.genruntimeconfig.cache
+C:\Users\Samuel\Dropbox\My PC (LAPTOP-19T3V1ND)\Desktop\Design Patterns\obj\Debug\net8.0\ref\Design Patterns.dll
