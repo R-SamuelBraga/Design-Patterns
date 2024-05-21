@@ -9,7 +9,7 @@ namespace Design_Patterns
     {
         private static PrintSpooler _lazyInstance = null!;
         private static readonly object Padlock = new();
-
+        //fila nativa c#
         private readonly Queue<string> _queue = new();
 
         private PrintSpooler()
