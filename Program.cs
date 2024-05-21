@@ -19,11 +19,11 @@ Singleton s2 = Singleton.GetInstance();
 
 if (s1 == s2)
 {
-    Console.WriteLine("Singleton works, both variables contain the same instance.");
+    Console.WriteLine("Singleton funciona, ambas variaveis contem a mesma instância.");
 }
 else
 {
-    Console.WriteLine("Singleton failed, variables contain different instances.");
+    Console.WriteLine("Singleton falhou, variaveis contem diferentes instâncias.");
 }
 
 //Exemplo DECORATOR Pizza
