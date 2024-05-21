@@ -18,6 +18,7 @@ namespace Design_Patterns
         }
         public static PrintSpooler GetPrintSpooler()
         {
+            //instrução lock garante que, no máximo, apenas um thread execute seu corpo a qualquer momento
             lock (Padlock)
             {
                 return _lazyInstance ??= new PrintSpooler();
